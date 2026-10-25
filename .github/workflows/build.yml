@@ -1,4 +1,4 @@
-name: Build firmware
+name: Build Music Assistant Control firmware
 
 on:
   push:
@@ -35,11 +35,13 @@ jobs:
 
       - uses: actions/upload-artifact@v5
         with:
-          name: firmware-merged
+          name: music-assistant-control-firmware
           path: firmware-merged.bin
 
       - name: Attach to release
         if: startsWith(github.ref, 'refs/tags/')
         uses: softprops/action-gh-release@v2
         with:
+          name: Music Assistant Control ${{ github.ref_name }}
           files: firmware-merged.bin
+          generate_release_notes: true

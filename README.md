@@ -1,3 +1,5 @@
+[![Build firmware](../../actions/workflows/build.yml/badge.svg)](../../actions/workflows/build.yml)
+
 # ESP32 Music Assistant Control
 
 ![ESP32 Music Assistant Control showing the now playing screen in a 3D-printed desk case](images/MusicAssistantControl.jpeg)
