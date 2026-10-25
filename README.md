@@ -1,4 +1,4 @@
-[![Build firmware](../../actions/workflows/build.yml/badge.svg)](../../actions/workflows/build.yml)
+[![Build Music Assistant Control firmware](https://github.com/djansen1987/Music-Assistant-Control/actions/workflows/build.yml/badge.svg?branch=main)](https://github.com/djansen1987/Music-Assistant-Control/actions/workflows/build.yml)
 
 # ESP32 Music Assistant Control
 
