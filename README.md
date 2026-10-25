@@ -50,14 +50,14 @@ No tools to build, only a browser and a USB cable.
 
 ## 1. Flash the firmware
 
-Download `firmware-merged.bin` from the latest [release](../../releases) of this repository. It is a single image with bootloader, partition table and app, to be written at offset `0x0`.
+Download `music-assistant-control-firmware.bin` from the latest [release](../../releases) of this repository. It is a single image with bootloader, partition table and app, to be written at offset `0x0`.
 
 Use Chrome or Edge on a desktop computer (Web Serial is required) and connect the board over USB.
 
 **esptool-js** (<https://espressif.github.io/esptool-js/>):
 
 1. Press **Connect** and select the serial port of the board (CH340).
-2. Set **Flash Address** to `0x0` and choose `firmware-merged.bin` as the file.
+2. Set **Flash Address** to `0x0` and choose `music-assistant-control-firmware.bin` as the file.
 3. Press **Program** and wait until it reports 100%.
 4. **Unplug the USB cable and plug it in again** to start the firmware.
 
